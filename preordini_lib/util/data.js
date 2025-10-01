@@ -10,7 +10,7 @@ function Data() {
 
     this.loadJsonMenu = async function () {
         try {
-            const response = await fetch("https://lucafriso.github.io/preordini/dati/menuRosara.json");
+            const response = await fetch("https://github.com/FesteUPCodevigo/festaSanZaccaria/blob/master/dati/menu.json");
             const menu = await response.json();
 
             menu.forEach((item, index) => {
