@@ -141,13 +141,13 @@
     border: none;
     border-radius: 6px;
     color: white;
-    background: linear-gradient(#478aed, #478aed);
+    background: linear-gradient(#d35400, #e67e22);
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
     cursor: pointer;
     display: block;
 }
 .accordion-toggle:hover {
-    background: linear-gradient(#478aed, #478aed);
+    background: linear-gradient(#d35400, #e67e22);
 }
 
 .accordion-content {
