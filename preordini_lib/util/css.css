@@ -114,7 +114,8 @@
 .blue-btn {
     border-radius: 5px;
     border: none;
-    background: linear-gradient(#478aed, #2962c2);
+    /* background: linear-gradient(#478aed, #2962c2); */
+    background: linear-gradient(#d35400, #e67e22); /*arancione per sagra san zaccaria*/
     color: white;
     padding: 10px 20px;
     font-size: 15px;
