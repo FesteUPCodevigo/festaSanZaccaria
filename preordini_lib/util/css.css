@@ -154,6 +154,12 @@
     display: none;
 }
 
+.header-logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Mantiene le proporzioni */
+}
+
 /* Popup */
 #content-ordine-popup {
     padding: 12px;
@@ -163,6 +169,8 @@
 #content-qrcode {
     text-align: center;
 }
+
+
 
 /* Input */
 input[type="text"],
