@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
 
       if (pageId === "pageqrcode") {
+            // Pulisce i dati salvati per evitare ordini precedenti
+            dataManager.saveInstanceHashmap(new HashMap());
            // Pulisce i residui del resoconto
            document.getElementById("contenuto-resoconto").innerHTML = "";
 
