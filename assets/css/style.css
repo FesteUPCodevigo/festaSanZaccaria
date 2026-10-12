@@ -65,21 +65,20 @@ body {
    padding-top: 12px;
 }
 
-.app-logo{
-   display: block;
-   width: 100%;
-   max-width: 100%;
-   height: auto;
+.app-logo {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto 12px;
+}
 
-   border-radius: 22px;
-
-   object-fit: cover;
-
-   margin: 0auto 14px auto;
-
-   box-shadow: 0 10px 24px rgba(0,0,0,0.12);
-
-   aspect-ratio: 16 / 9 ;
+@media (max-width: 600px) {
+    .app-logo {
+        max-width: 90%;
+        height: auto;
+    }
 }
 
 .app-header h1 {
