@@ -1,18 +1,21 @@
 (() => {
    "use strict";
 
-   const CONFIG = {
-   menuUrl: "dati/menu.json",
-   copertoUnitario: 1,
+   
+const CONFIG = {
+    menuUrl: "dati/menu.json",
+    copertoUnitario: 1,
 
-   ordineCategorie: [
-      "Primi",
-      "Secondi",
-      "Contorni",
-      "Insalatone",
-      "Bibite"
-   ]
+    ordineCategorie: [
+        "Primi piatti",
+        "Secondi piatti",
+        "Contorni",
+        "Bibite",
+        "Aggiunte",
+        "Bar"
+    ]
 };
+
 
    const state = {
       menu: [],

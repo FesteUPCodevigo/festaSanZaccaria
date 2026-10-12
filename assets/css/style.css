@@ -169,7 +169,7 @@ input:focus {
    gap: 12px;
    border: 0;
    padding: 17px 18px;
-   background: linear-gradient(135deg, var(--primary), #73b4ff);
+   background: linear-gradient(135deg, var(--primary), #f78503);
    color: white;
    font: inherit;
    font-size: 1.1rem;
