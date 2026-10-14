@@ -276,18 +276,6 @@
     "prezzo": 7
   },
   {
-    "id": 53,
-    "piatto": "Aggiunta generica",
-    "categoria": "Contorni",
-    "prezzo": 1
-  },
-  {
-    "id": 54,
-    "piatto": "Aggiunta generica 2€",
-    "categoria": "Contorni",
-    "prezzo": 2
-  },
-  {
     "id": 55,
     "piatto": "Bollito misto (2 fette di cotechino, 2 di lingua e 2 di manzo, purè, sottoaceti e pane. Cren a richiesta)",
     "categoria": "Secondi piatti",
